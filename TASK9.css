@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.Items {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(251, 161, 161);
+    text-align: center;
+}
+
+/* Column spans */
+.span6 {
+    grid-column: span 6;
+}
+
+.span3 {
+    grid-column: span 3;
+}
+
+.span4 {
+    grid-column: span 4;
+}
